@@ -1,0 +1,29 @@
+.menubar{
+    height: 70px;
+    width: 100%;
+    background: #3B1D98;
+}
+.menubar ul:nth-child(2){
+    display: flex;
+    flex-wrap: nowrap;
+    float: right;
+    margin-right: 50px;
+    color: #fff;
+    line-height: 100%;
+}
+.menubar ul:nth-child(1){
+    display: flex;
+    flex-wrap: nowrap;
+    float: left;
+    margin-left: 20px;
+    color: #fff;
+    line-height: 100%;
+}
+.menubar ul li{
+  margin: 10px;
+  font-size: 14px;
+  list-style: none;
+  cursor: pointer;
+  text-align: center;
+  line-height: 100%;
+}
